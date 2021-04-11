@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en" itemscope itemtype="http://schema.org/WebPage"> 
+
+	<head prefix="og: http://ogp.me/ns#">
+
+		<title>Bani The Untold Story</title> 
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; script-src 'self' 'unsafe-eval'">
+		<meta name="description" content=""> <!--Page description. No longer than 155 characters.-->
+		<meta name="keywords" content="">
+		<meta name="author" content="Nahid"> 
+
+
+
+		
+
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/icons/icon_192x192.png"> 
+		<link rel="icon" sizes="128x128" href="assets/icons/icon_128x128.png"> 
+
+		
+
+		
+
+		
+
+		<meta name="theme-color" content=""><!--Theme color for browsers in hexadecimal format.-->
+
+		<link rel="shortcut icon" href="favicon.ico" /> <!--Favicon. Good tool for creating one: http://xiconeditor.com/ Create all sizes.-->
+		<!--<link rel="canonical" href=""> Canonical URL of your webpage-->
+
+		<link rel="manifest" href="manifest.json">
+
+	
+
+		
+		<link rel="stylesheet" href="./engine/core/monogatari.css">
+		<link rel="stylesheet" href="./style/main.css">
+		<script src="./engine/debug/debug.js"></script>
+		<script src="./engine/core/monogatari.js"></script>
+		<script src="./js/options.js"></script>
+		<script src="./js/storage.js"></script>
+		<script src="./js/script.js"></script>
+		<script src="./js/main.js"></script>
+
+	</head>
+
+	<body>
+
+		<noscript>
+			<div class="middle text--center">
+				<h2>JavaScript Disabled or not Supported.</h2>
+				<small>To play this game, please enable JavaScript executing or use a different browser.</small>
+			</div>
+		</noscript>
+
+		<div id="monogatari">
+			<visual-novel>
+				<language-selection-screen></language-selection-screen>
+				<loading-screen></loading-screen>
+				<main-screen>
+					<main-menu></main-menu>
+				</main-screen>
+				<game-screen>
+					<dialog-log></dialog-log>
+					<text-box></text-box>
+					<quick-menu></quick-menu>
+				</game-screen>
+				<gallery-screen></gallery-screen>
+				<credits-screen></credits-screen>
+				<load-screen></load-screen>
+				<save-screen></save-screen>
+				<settings-screen></settings-screen>
+				<help-screen></help-screen>
+			</visual-novel>
+		</div>
+	</body>
+
+</html>
